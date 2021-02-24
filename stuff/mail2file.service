@@ -1,0 +1,12 @@
+[Unit]
+Description=Mail2file drop
+
+[Service]
+Type=simple
+User=mail2file
+ExecStart=/usr/bin/php main.php
+WorkingDirectory=/opt/mail2file
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

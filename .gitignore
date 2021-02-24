@@ -1,0 +1,5 @@
+/rules.d/*.php
+/config.php
+/server.pem
+/nbproject
+/.idea
